@@ -101,7 +101,7 @@ def plot_manhattan_QQ(file_name, cut=20, sig_level=5e-8):
 def cnt_sig_pvalue():
     # f_s = ["0_VS_123", "0_VS_1", "0_VS_2", "0_VS_3", "1_VS_2", "1_VS_3", "2_VS_3"]
     # f_s = ["0_VS_1", "0_VS_2"]
-    f_s = ["0_VS_2"]
+    f_s = ["0_VS_2", "0_VS_1"]
     for file_name in f_s:
         df = pd.read_csv(bed_path + "{}/{}/logistic_results.assoc.logistic2".format(exp_name, file_name), sep=r'\s+', engine='python')
         df.rename(columns={'STAT': 'Z', 'NMISS': 'n', 'P': 'p'}, inplace=True)
