@@ -86,6 +86,6 @@ def plot(y):
 
 
 if __name__ == '__main__':
-    plot(y='Initial Silhouette')
-    plot(y='Initial CH')
-    plot(y='Initial DB')
+    plot(y='Optimized Silhouette')
+    plot(y='Optimized CH')
+    plot(y='Optimized DB')
