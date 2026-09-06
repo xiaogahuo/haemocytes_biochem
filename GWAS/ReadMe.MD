@@ -42,6 +42,8 @@
       要提高并行度，参考 run_PWAS_ALL.sh
 
 ##### 6. 执行 SMR
+      ----在线网站执行相关分析： https://yanglab.westlake.edu.cn/smr-portal ---
+      
       工具链接网址： https://yanglab.westlake.edu.cn/software/smr
       *QTL数据下载链接： https://yanglab.westlake.edu.cn/software/smr/#DataResource
       gwas.txt.gz解压缩命令: gunzip 0_VS_2_gwas_summary.txt.gz      
