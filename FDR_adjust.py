@@ -23,6 +23,7 @@ for pcol, fcol in p_to_f.items():
     series = df[pcol]
     mask = series.notna()
     p_values = series[mask].values
+    print(len(p_values))
 
     if len(p_values) > 0:
         _, p_corrected, _, _ = multipletests(p_values, alpha=0.05, method='fdr_bh')
